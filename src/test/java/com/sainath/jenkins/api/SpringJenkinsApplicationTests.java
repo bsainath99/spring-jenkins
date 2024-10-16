@@ -12,9 +12,9 @@ class SpringJenkinsApplicationTests {
 
 	public static Logger logger=LoggerFactory.getLogger(SpringJenkinsApplicationTests.class);
 	@Test
-	 public void contextLoads() {
+	 public  contextLoads() {
 		logger.info("Test case exceuting...");
-		logger.info("Second test case added successfully and it is exceuting...");
+
 		assertEquals(true,true);
 	}
 
